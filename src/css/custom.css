@@ -133,13 +133,14 @@ table {
   border: 1px var(--ifm-toc-border-color) solid;
   border-radius: var(--ifm-global-radius);
   text-align: center;
-  margin: .125em;
+  margin: .3125em;
 }
 
 .tabs__item--active {
   background-color: var(--ifm-color-primary-darker);
   border-color: var(--ifm-color-primary);
-  color: #fff;
+  color: #f4e9ff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .tabs__item--active:hover {
